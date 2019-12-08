@@ -1,7 +1,7 @@
 # WebAPI-Organizing-football-tournaments
 Web application in .NET Framework about organizing football tournaments. 
 
-## Technologies used
+## DEVELOPMENT
 
 1. .NET Framework
 2. C# programming language
@@ -9,6 +9,5 @@ Web application in .NET Framework about organizing football tournaments.
 4. Microsoft SQL Server
 5. Visual Studio IDE
 
-### Created by
-
-Matija Marić
+## DISCLAIMER
+This project cannot be used, modified and distributed by anyone. This project is owner of Matija Marić.
