@@ -1,0 +1,24 @@
+﻿@model ZavrsniRad.Models.Država
+
+@{
+    ViewData["Title"] = "Detalji";
+}
+
+<h1>Detalji</h1>
+
+<div>
+    <h4>Država</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ime)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Uredi</a> |
+    <a asp-action="Index">Vrati se na listu</a>
+</div>

@@ -1,0 +1,27 @@
+﻿@model ZavrsniRad.Models.Država
+
+@{
+    ViewData["Title"] = "Obriši";
+}
+
+<h1>Obriši</h1>
+
+<h3>Jeste li sigurni da želite obrisati državu?</h3>
+<div>
+    <h4>Država</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ime)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Vrati se na listu</a>
+    </form>
+</div>
